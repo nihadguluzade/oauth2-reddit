@@ -21,7 +21,6 @@ public class RestOAuth2AccessTokenResponseClient implements OAuth2AccessTokenRes
 
     private RestOperations restOperations;
     private final String USER_AGENT = ChangeMeClient/0.1 by YourUsername;
-    private String authorizationResponseBaseUri;
 
     public RestOAuth2AccessTokenResponseClient(RestOperations restOperations) {
         this.restOperations = restOperations;
